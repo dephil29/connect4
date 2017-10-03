@@ -7,10 +7,6 @@ var newEdge;
 var createTable = require('./createTable.js');
 var isLegitEdge = require('./isLegitEdge.js');
 
-
-
-
-
 function createTable(side){
   var tbody = document.getElementById("matrix");
   tbody.innerHTML = '';

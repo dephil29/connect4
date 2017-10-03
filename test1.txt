@@ -24,6 +24,7 @@ iii. Parse HTML, Recalculate Style, Paint
 5. What is the name of the Google tool you can use to see a list of things you can do to improve your page's load speed? (10 pts)
 
     timeline
+    pagespeed tools
 
 6. What is the purpose of including multiple <source> elements within a single <video> element?
 
