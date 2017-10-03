@@ -5,7 +5,7 @@ var app = express();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
-var port = 4004 || 8080;
+var port = 4000;
 
 app.get('/', function (req, res) {
   res.sendFile(__dirname + '/index.html');
@@ -13,4 +13,9 @@ app.get('/', function (req, res) {
 
 http.listen (port, function () {
   console.log('Listening on:' + port);
+});
+
+// socket.io
+io.sockets.on('connection', function (socket) {
+  console.log('new client connection');
 });
