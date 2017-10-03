@@ -6,6 +6,8 @@ var SIDES = 8;
 var newEdge;
 var createTable = require('./createTable.js');
 var isLegitEdge = require('./isLegitEdge.js');
+var server = require('./server.js');
+
 
 function createTable(side){
   var tbody = document.getElementById("matrix");
